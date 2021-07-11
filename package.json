@@ -1,0 +1,10 @@
+{
+  "name": "VersionsManifest",
+  "version": "1.0.0",
+  "repository": "git@github.com:Andy-K-Sparklight/VersionsManifest.git",
+  "author": "Andy-K-Sparklight <Twilight_Princess_Sparkle@outlook.com>",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "got": "^11.8.2"
+  }
+}
