@@ -1,5 +1,6 @@
 const got = require("got");
 module.exports = (req, res) => {
+   console.log(req);
    const CF_BASE = "https://addon-ecs.forgesvc.net";
     (async ()=>{
         const r = await got.get(CF_BASE + req.path, {responseType:"json"});
